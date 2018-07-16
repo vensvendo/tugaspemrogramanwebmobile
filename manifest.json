@@ -1,0 +1,16 @@
+{
+  "short_name": "CS",
+  "name": "Cofffe Store",
+  "homepage": "http://adipatria66.github.io/pait2",
+  "icons": [
+    {
+      "src":"img/cs_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#000",
+  "theme_color": "#536878",
+  "display": "standalone"
+}

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+		<div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Coffee Shop</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+		<div class="container">
+			<input type="radio" id="i1" name="images" checked />
+			<input type="radio" id="i2" name="images" />
+			<input type="radio" id="i3" name="images" />
+			<input type="radio" id="i4" name="images" />
+			<input type="radio" id="i5" name="images" />
+			<input type="radio" id="i6" name="images" />				
+		<div class="slide_img" id="one">			
+		<img src="img/timthumb.jpg">
+			<label class="prev" for="i6"><span>&#x2039;</span></label>
+			<label class="next" for="i2"><span>&#x203a;</span></label>	
+		</div>
+		<div class="slide_img" id="two">
+			<img src="img/kopi_flores.png" >
+				<label class="prev" for="i1"><span>&#x2039;</span></label>
+				<label class="next" for="i3"><span>&#x203a;</span></label>
+		</div>		
+		<div class="slide_img" id="three">
+			<img src="img/kopi_sidikalang.jpg">	
+				<label class="prev" for="i2"><span>&#x2039;</span></label>
+				<label class="next" for="i4"><span>&#x203a;</span></label>
+		</div>
+		<div class="slide_img" id="four">
+			<img src="img/kopi-toraja.jpg">	
+				<label class="prev" for="i3"><span>&#x2039;</span></label>
+				<label class="next" for="i5"><span>&#x203a;</span></label>
+		</div>
+		<div class="slide_img" id="five">
+			<img src="img/bali_kintamani.png">	
+				<label class="prev" for="i4"><span>&#x2039;</span></label>
+				<label class="next" for="i6"><span>&#x203a;</span></label>
+		</div>
+		<div class="slide_img" id="six">
+			<img src="img/5.jpg">	
+				<label class="prev" for="i5"><span>&#x2039;</span></label>
+				<label class="next" for="i1"><span>&#x203a;</span></label>
+		</div>
+		<div id="nav_slide">
+			<label for="i1" class="dots" id="dot1"></label>
+			<label for="i2" class="dots" id="dot2"></label>
+			<label for="i3" class="dots" id="dot3"></label>
+			<label for="i4" class="dots" id="dot4"></label>
+			<label for="i5" class="dots" id="dot5"></label>
+			<label for="i6" class="dots" id="dot6"></label>
+		</div>
+			
+	</div>        
+    <div>
+	<header1>
+		<tes><img src="img/kopi_flores.png"></tes>
+		<tes><img src="img/kopi_sidikalang.jpg"></tes>
+		<tes><img src="img/kopi-toraja.jpg"></tes>
+		<tes><img src="img/bali_kintamani.png"></tes>
+		<tes><img src="img/kopi_flores.png"></tes>
+	</header1>
+	</div>
+    <div class="footer-container">
+        <footer class="wrapper">
+             <h3>Coffee Shop</h3>
+        </footer>
+     </div>
+	 		<script>
+			if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('service-worker.js')
+			.then(function(registration) {
+			console.log('Registered:', registration);
+			})
+			.catch(function(error) {
+			console.log('Registration failed: ', error);
+			});
+			}
+		</script>
+    </body>
+</html>

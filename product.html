@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!--<link rel="stylesheet" href="css/normalize.min.css"> -->
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Coffee Shop</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>        
+			  <div class="flex">
+				<section>
+				  <img src="img/gayo.jpg" alt="Judul 1" />
+				  <h2>Kopi Aceh Gayo</h2>
+				  <p>Kopi Asli Aceh Gayo <br/> kemasan bubuk <br/> berat 250gr </p>
+				  <aside>
+					<ul>
+					  <li>Price: 45 K</li>
+					  <li>In Stock</li>
+					</ul>
+					<input class="MyButton" type="button" value="View Detail" onclick="window.location.href='gayo.html';"/>
+				  </aside>
+				</section>
+				<section>
+				  <img src="img/bali.jpg" alt="Judul 2" />
+				  <h2>Kopi Bali Kintamani</h2>
+				  <p>Kopi Asli Bali Kintamani <br/> kemasan bubuk <br/> berat 250gr </p>
+				  <aside>
+					<ul>
+					  <li>Price: 39 K</li>
+					  <li>In Stock</li>
+					</ul>
+					<input class="MyButton" type="button" value="View Detail" onclick="window.location.href='Bali.html';"/>
+				  </aside>
+				</section>
+				<section>
+				  <img src="img/luwak.jpg" alt=">Judul 3" />
+				  <h2>Kopi Luwak</h2>
+				  <p>Kopi Luwak Asli <br/> kemasan bubuk <br/> berat 250gr </p> 
+				  <aside>
+					<ul>
+					  <li>Price: 45 K</li>
+					  <li>In Stock</li>
+					</ul>
+					<input class="MyButton" type="button" value="View Detail" onclick="window.location.href='Luwak.html';"/>
+				  </aside>  
+				</section>
+				<section>
+				  <img src="img/robusta.jpg" alt="Judul 4" />
+				  <h2>Kopi Robusta</h2>
+				  <p>Kopi Robusta Asli <br/> kemasan bubuk <br/> berat 250gr </p> 
+				  <aside>
+					<ul>
+					  <li>Price: 40 K</li>
+					  <li>In Stock</li>
+					</ul>
+					<input class="MyButton" type="button" value="View Detail" onclick="window.location.href='Robusta.html';"/>
+				  </aside>     
+				</section>
+				<section>
+				  <img src="img/toraja.jpg" alt="Judul 5" />
+				  <h2>Kopi Toraja</h2>
+				  <p>Kopi Toraja Asli <br/> kemasan bubuk <br/> berat 250gr </p>
+				  <aside>
+					<ul>
+					  <li>Price: 42 K</li>
+					  <li>In Stock</li>
+					</ul>
+					<input class="MyButton" type="button" value="View Detail" onclick="window.location.href='Toraja.html';"/>
+				  </aside>    
+				</section> 
+			  </div>
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3>Coffee Shop</h3>
+            </footer>
+        </div>
+		<script>
+			if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('service-worker.js')
+			.then(function(registration) {
+			console.log('Registered:', registration);
+			})
+			.catch(function(error) {
+			console.log('Registration failed: ', error);
+			});
+			}
+		</script>
+    </body>
+</html>
